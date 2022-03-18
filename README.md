@@ -68,6 +68,13 @@ Use your own KQL queries
 
 ![alt image](https://github.com/DavidArayaSanabria/Deploy_Azure_Firewall_and_enable_monitoring/blob/b76192dc7cf842bc02dd2571df23ef7bd5c96e21/Images/custom%20query.png)
 
+## Monitor Azure Activity
+
+Use the Activity Log option to monitor who made changes in your Firewall resource
+
+![alt image](https://github.com/DavidArayaSanabria/Deploy_Azure_Firewall_and_enable_monitoring/blob/74f42472b6af6d5bf96faa2307c64ab24766597d/Images/activity%20log.png)
+
+
 
 ## Azure services and related products
 
@@ -83,3 +90,6 @@ Use your own KQL queries
 - https://docs.microsoft.com/en-us/cli/azure/monitor/log-analytics/workspace?view=azure-cli-latest#az-monitor-log-analytics-workspace-create
 - https://docs.microsoft.com/en-us/azure/firewall/firewall-diagnostics
 - https://github.com/marcusbakker/KQL
+
+
+
