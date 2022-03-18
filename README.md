@@ -79,7 +79,7 @@ Use your own KQL queries
 ## Related references
 - https://docs.microsoft.com/en-us/azure/firewall/overview#:~:text=Azure%20Firewall%20is%20a%20cloud,availability%20and%20unrestricted%20cloud%20scalability.
 - https://docs.microsoft.com/en-us/azure/templates/microsoft.network/azurefirewalls?tabs=bicep
-- https://docs.microsoft.com/en-us/azure/azure-monitor/logs/quick-create-workspace#:~:text=Log%20Analytics%20workspace%20is%20the,data%20in%20a%20particular%20workspace.
+- https://docs.microsoft.com/en-us/azure/azure-monitor/logs/quick-createworkspace#:~:text=Log%20Analytics%20workspace%20is%20the,data%20in%20a%20particular%20workspace.
 - https://docs.microsoft.com/en-us/cli/azure/monitor/log-analytics/workspace?view=azure-cli-latest#az-monitor-log-analytics-workspace-create
 - https://docs.microsoft.com/en-us/azure/firewall/firewall-diagnostics
 - https://github.com/marcusbakker/KQL
