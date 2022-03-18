@@ -26,6 +26,7 @@ The [Template.bicep](https://github.com/DavidArayaSanabria/Deploy_Azure_Firewall
 
 ## Create a Log Analytics Workspace using CloudShell and Azure CLI:
 
+```
 az monitor log-analytics workspace create --resource-group
                                           --workspace-name
                                           [--capacity-reservation-level]
@@ -38,6 +39,7 @@ az monitor log-analytics workspace create --resource-group
                                           [--sku]
                                           [--subscription]
                                           [--tags]
+```                                          
 
 ## Example
 
