@@ -56,7 +56,7 @@ Select the Logs and Metrics you would like to store in your Log Analytics Worksp
 
 ![alt image](https://github.com/DavidArayaSanabria/Deploy_Azure_Firewall_and_enable_monitoring/blob/b76192dc7cf842bc02dd2571df23ef7bd5c96e21/Images/Metrics.png)
 
-Gather and filter relevant Firewall's metrics/
+Gather and filter relevant Firewall's metrics
 
 ## Query Logs
 
@@ -77,11 +77,9 @@ Use your own KQL queries
 - VNET
 
 ## Related references
-- https://docs.microsoft.com/en-us/azure/aks/intro-kubernetes
-- https://docs.microsoft.com/en-us/azure/aks/private-clusters
-- https://blog.baeke.info/2021/07/01/dns-options-for-private-azure-kubernetes-service/
-- https://docs.microsoft.com/en-us/azure/aks/coredns-custom
-- https://docs.microsoft.com/en-us/azure/templates/microsoft.containerservice/managedclusters?tabs=bicep
-- https://docs.microsoft.com/en-us/azure/firewall/protect-azure-kubernetes-service
-- https://docs.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/how-managed-identities-work-vm#user-assigned-managed-identity
+- https://docs.microsoft.com/en-us/azure/firewall/overview#:~:text=Azure%20Firewall%20is%20a%20cloud,availability%20and%20unrestricted%20cloud%20scalability.
+- https://docs.microsoft.com/en-us/azure/templates/microsoft.network/azurefirewalls?tabs=bicep
+- https://docs.microsoft.com/en-us/azure/azure-monitor/logs/quick-create-workspace#:~:text=Log%20Analytics%20workspace%20is%20the,data%20in%20a%20particular%20workspace.
+- https://docs.microsoft.com/en-us/cli/azure/monitor/log-analytics/workspace?view=azure-cli-latest#az-monitor-log-analytics-workspace-create
+- https://docs.microsoft.com/en-us/azure/firewall/firewall-diagnostics
 - https://github.com/marcusbakker/KQL
