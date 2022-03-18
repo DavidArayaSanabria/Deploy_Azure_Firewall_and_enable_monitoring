@@ -42,11 +42,31 @@ az monitor log-analytics workspace create --resource-group
 ```                                          
 
 ## Example
-
+```
 az monitor log-analytics workspace create -g MyResourceGroup -n MyWorkspace
+```
 
+## Select the Diagnostic Settings balde option
 
-![alt image]()
+![alt image](https://github.com/DavidArayaSanabria/Deploy_Azure_Firewall_and_enable_monitoring/blob/b76192dc7cf842bc02dd2571df23ef7bd5c96e21/Images/Diagnostic%20setting.png)
+
+Select the Logs and Metrics you would like to store in your Log Analytics Workspace
+
+## Use the Metrics blade option
+
+![alt image](https://github.com/DavidArayaSanabria/Deploy_Azure_Firewall_and_enable_monitoring/blob/b76192dc7cf842bc02dd2571df23ef7bd5c96e21/Images/Metrics.png)
+
+Gather and filter relevant Firewall's metrics/
+
+## Query Logs
+
+Use ready-made Kusto Query Language (KQL) queries for your Firewall's logs
+
+![alt image](https://github.com/DavidArayaSanabria/Deploy_Azure_Firewall_and_enable_monitoring/blob/b76192dc7cf842bc02dd2571df23ef7bd5c96e21/Images/pre-defined%20KQL%20queires.png)
+
+Use your own KQL queries
+
+![alt image](https://github.com/DavidArayaSanabria/Deploy_Azure_Firewall_and_enable_monitoring/blob/b76192dc7cf842bc02dd2571df23ef7bd5c96e21/Images/custom%20query.png)
 
 
 ## Azure services and related products
@@ -64,6 +84,4 @@ az monitor log-analytics workspace create -g MyResourceGroup -n MyWorkspace
 - https://docs.microsoft.com/en-us/azure/templates/microsoft.containerservice/managedclusters?tabs=bicep
 - https://docs.microsoft.com/en-us/azure/firewall/protect-azure-kubernetes-service
 - https://docs.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/how-managed-identities-work-vm#user-assigned-managed-identity
-
-
-
+- https://github.com/marcusbakker/KQL
